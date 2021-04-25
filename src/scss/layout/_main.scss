@@ -46,6 +46,15 @@
   margin: 0px 15px 45px;
 }
 
+ .tips__button-go {  
+    transition: border ease 1s;
+ }
+
+ .tips__button-go:hover {
+   border: 5px solid $color-orange;
+ }
+
+
 @media all and (min-width: 768px) {
   .tips {
     justify-content: space-between;
@@ -68,7 +77,8 @@
 
 @media all and (min-width: 1024px) {
   .tips {
-    justify-content: space-evenly;
+    width: 950px;
+    margin: auto;
   }
 
   .tips__subtitle {
@@ -123,7 +133,12 @@
   color: $color-white;
   border-radius: 22.5px;
   padding: 8px 30px;
-}
+  transition: box-shadow ease 1s;
+ }
+
+ .reasons__button-more:hover {
+   box-shadow: 0px 8px 15px $color-greyish-brown;
+ }
 
 @media all and (min-width: 768px) {
   .reasons {

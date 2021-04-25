@@ -77,3 +77,23 @@
   margin-bottom: 53px;
   align-self: center;
 }
+
+.button-scroll-down:hover {
+
+  animation-duration: 1s;
+  animation-name: scrolldown;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scrolldown {
+  from {
+    
+    transform: translate(0, 0);
+  }
+
+  to {
+   transform: translate(0, 7px);
+    
+  }
+}
