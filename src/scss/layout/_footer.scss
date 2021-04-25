@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.buttom-scroll-up {
+.button-scroll-up {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -70,4 +70,42 @@
 
 .love-heart {
   color: $color-orange;
+}
+
+@media all and (min-width:768px) {
+
+ .footer {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  }
+ .interest__list {
+  margin-top: 45px;
+  margin-left: 30px;
+  margin-bottom: 105px;
+  border: brown 1px solid;
+  }
+ .social-media__list {
+  margin-top: 45px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  border: brown 1px solid;
+}
+.copy {
+ margin-top: 46px;
+ border: brown 1px solid;
+ justify-content: left;
+}
+
+.motivation {
+  margin-bottom: 142px;
+  border: brown 1px solid;
+}
+}
+
+
+@media all and (min-width: 1024px) {
+ .footer {
+ justify-content: center;
+ }
 }
