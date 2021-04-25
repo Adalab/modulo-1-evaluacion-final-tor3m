@@ -1,11 +1,11 @@
-.content-tips {
+.tips {
   background-color: $color-white;
   padding: 30px 40px 30px 40px;
   display: flex;
   flex-direction: column;
 }
 
-.content-tips__title {
+.tips__title {
   font-family: $font-roboto;
   font-size: 14px;
   color: $color-cerulean;
@@ -13,7 +13,7 @@
   text-transform: capitalize;
 }
 
-.content-tips__subtitle {
+.tips__subtitle {
   width: 200px;
   margin: 1px 0 15px;
   font-family: $font-robotoSlab;
@@ -22,16 +22,16 @@
   text-transform: capitalize;
 }
 
-.content-tips__paragraph {
+.tips__paragraph {
   font-family: $font-roboto;
   font-size: 18px;
   color: $color-greyish-brown;
   line-height: 1.67;
-  justify-content: space-around;  
+  justify-content: space-around;
   margin: 15px 0 30px;
 }
 
-.content-tips__button-go {
+.tips__button-go {
   text-decoration: none;
   font-family: $font-roboto;
   font-size: 20px;
@@ -46,40 +46,74 @@
   margin: 0px 15px 45px;
 }
 
-.content-reasons {
+@media all and (min-width: 768px) {
+  .tips {
+    justify-content: space-between;
+  }
 
-  background-color: $color-ice-blue;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px 93px 93px 93px 45px;
-  text-align: center;
-  
+  .tips__subtitle {
+    font-size: 26px;
+    line-height: 1.73;
+    width: 100vw;
+  }
+  .tips__paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .tips__button-go {
+    padding-left: 32px;
+    padding-right: 33px;
+  }
 }
 
-.content-reasons__title {
+@media all and (min-width: 1024px) {
+  .tips {
+    justify-content: space-evenly;
+  }
+
+  .tips__subtitle {
+    font-size: 32px;
+  }
+  .tips__button-go {
+    padding-left: 67px;
+    padding-right: 68px;
+  }
+}
+
+.reasons {
+  background-color: $color-ice-blue;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px auto auto auto 90px;
+  row-gap: 45px;
+  text-align: center;
+}
+
+.reasons__title {
   font-family: $font-robotoSlab;
   font-size: 24px;
   font-weight: bold;
   text-transform: capitalize;
-  background-color: brown;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
-.content-reasons__article-subtitle {
+.reasons__article-subtitle {
   font-family: $font-robotoSlab;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.67;
-  margin-top: 45px;
 }
 
-.content-reasons__article-paragraph {
+.reasons__article-subtitle:first-letter {
+  text-transform: capitalize;
+}
+.reasons__article-paragraph {
   font-family: $font-roboto;
   font-size: 18px;
   line-height: 1.67;
 }
 
-.content-reasons__button-more {
+.reasons__button-more {
   text-decoration: none;
   font-family: $font-roboto;
   font-size: 20px;
@@ -89,11 +123,47 @@
   color: $color-white;
   border-radius: 22.5px;
   padding: 8px 30px;
-  margin-top: 45px;
-  margin-bottom: 60px;
 }
 
-.content-reasons__button-more:first-letter {
-  text-transform: capitalize;
+@media all and (min-width: 768px) {
+  .reasons {
+    grid-template-rows: 93px 93px 93px;
+    grid-template-columns: 30% 40% 30%;
+    row-gap: 30px;
+    text-align: center;
+  }
+  .reasons__title {
+    font-size: 32px;
+    grid-column: 1 / span 3;
+    text-align: center;
+  }
+  .reasons__article-subtitle {
+    font-size: 24px;
+  }
+  .reasons__button {
+    grid-column: 1 / span 3;
+  }
+  .reasons__button-more {
+    margin-bottom: 70px;
+    padding: 12px 43px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-//no va first letter capitaliza
+
+@media all and (min-width: 1024px) {
+  .reasons {
+    justify-content: center;
+  }
+
+  .tips__subtitle {
+    font-size: 32px;
+  }
+  .reasons__button-more {
+    padding-right: 62px;
+    padding-left: 63px;
+  }
+}

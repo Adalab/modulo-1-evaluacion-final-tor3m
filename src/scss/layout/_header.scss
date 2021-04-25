@@ -5,8 +5,9 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  
-  &__menu { // .hero__menu
+
+  &__menu {
+    // .hero__menu
     position: fixed;
     top: 0;
     width: 44px;
@@ -15,13 +16,15 @@
     padding: 15px 14px;
   }
 
-  &__content { // .hero__content
+  &__content {
+    // .hero__content
     align-self: flex-end;
     justify-self: center;
     flex-direction: column;
     display: flex;
 
-    &__title { // .hero__content__title
+    &__title {
+      // .hero__content__title
       font-family: $font-robotoSlab;
       font-size: 42px;
       font-weight: bold;

@@ -81,7 +81,6 @@
   .footer {
     justify-content: space-around;
     flex-direction: row;
-
     position: relative;
   }
   .scroll-up {
@@ -97,7 +96,6 @@
     margin-top: 45px;
     margin-left: 30px;
     margin-bottom: 105px;
-    
   }
 
   .interest__list-item {
@@ -112,7 +110,6 @@
     margin-top: 45px;
     margin-left: 30px;
     margin-bottom: 45px;
-    
   }
 
   .social-media__list-item {
@@ -138,7 +135,7 @@
 
   .interest__list {
     margin-left: 30px;
-    margin-bottom: 105px;
+    margin-bottom: 0;
     padding: 0 60px 0 90px;
   }
 
