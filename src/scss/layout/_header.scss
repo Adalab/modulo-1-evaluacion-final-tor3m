@@ -49,3 +49,16 @@
   padding: 18px 12px 15.3px 13px;
   margin-bottom: 53px;
 }
+
+@media all and (min-width:768px) {
+
+.hero__title {
+  font-size: 80px;
+  line-height: 1.33; 
+  }
+
+.hero__paragraph {
+  font-size: 24px;
+  margin: 20px 0 30px
+  }
+}
