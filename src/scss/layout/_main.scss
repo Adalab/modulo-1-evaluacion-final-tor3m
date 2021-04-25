@@ -1,0 +1,99 @@
+.content-tips {
+  background-color: $color-white;
+  padding: 30px 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-tips__title {
+  font-family: $font-roboto;
+  font-size: 14px;
+  color: $color-cerulean;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.content-tips__subtitle {
+  width: 200px;
+  margin: 1px 0 15px;
+  font-family: $font-robotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.content-tips__paragraph {
+  font-family: $font-roboto;
+  font-size: 18px;
+  color: $color-greyish-brown;
+  line-height: 1.67;
+  justify-content: space-around;  
+  margin: 15px 0 30px;
+}
+
+.content-tips__button-go {
+  text-decoration: none;
+  font-family: $font-roboto;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: $color-orange;
+  height: 45px;
+  border-radius: 22.5px;
+  border: $color-orange solid 2px;
+  background-color: $color-white;
+  padding: 5px 28px;
+  margin: 0px 15px 45px;
+}
+
+.content-reasons {
+
+  background-color: $color-ice-blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 93px 93px 93px 45px;
+  text-align: center;
+  
+}
+
+.content-reasons__title {
+  font-family: $font-robotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: brown;
+  margin-top: 30px; 
+}
+
+.content-reasons__article-subtitle {
+  font-family: $font-robotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  margin-top: 45px;
+}
+
+.content-reasons__article-paragraph {
+  font-family: $font-roboto;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.content-reasons__button-more {
+  text-decoration: none;
+  font-family: $font-roboto;
+  font-size: 20px;
+  font-weight: 500;
+  border: $color-orange;
+  background-color: $color-orange;
+  color: $color-white;
+  border-radius: 22.5px;
+  padding: 8px 30px;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.content-reasons__button-more:first-letter {
+  text-transform: capitalize;
+}
+//no va first letter capitaliza

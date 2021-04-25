@@ -1,0 +1,51 @@
+.hero {
+  height: 100vh;
+  background-image: url("/assets/images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero__menu {
+  position: fixed;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  background-color: $color-cerulean;
+  padding: 15px 14px;
+}
+
+.hero__title {
+  font-family: $font-robotoSlab;
+  font-size: 42px;
+  font-weight: bold;
+  word-spacing: 100vw;
+  color: $color-white;
+  line-height: 1.31;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__paragraph {
+  font-family: $font-roboto;
+  font-size: 16px;
+  text-align: center;
+  color: $color-white;
+  margin: 10px 0 45px;
+}
+
+.scroll-down {
+  text-align: center;
+}
+
+.buttom-scroll-down {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: $color-white;
+  padding: 18px 12px 15.3px 13px;
+  margin-bottom: 53px;
+}

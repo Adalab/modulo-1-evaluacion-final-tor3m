@@ -1,1 +1,60 @@
+.footer {
+  background-color: $color-dark-grey-blue;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-roboto;
+}
 
+.interest__list {
+  list-style-type: none;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.interest__list-item {
+  text-align: center;
+}
+
+.interest__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.88;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.social-media__list {
+  list-style-type: none;
+}
+
+.social-media__list-item {
+  text-align: center;
+}
+
+.social-media__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.88;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.copy {
+  margin-top: 46px;
+  color: $color-white;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+}
+
+.motivation {
+  margin-bottom: 45px;
+  color: $color-white;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+}
+
+.love-heart {
+  color: $color-orange;
+}
