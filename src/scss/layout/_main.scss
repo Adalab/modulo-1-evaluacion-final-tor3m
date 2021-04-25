@@ -46,14 +46,13 @@
   margin: 0px 15px 45px;
 }
 
- .tips__button-go {  
-    transition: border ease 1s;
- }
+.tips__button-go {
+  transition: border ease 1s;
+}
 
- .tips__button-go:hover {
-   border: 5px solid $color-orange;
- }
-
+.tips__button-go:hover {
+  border: 5px solid $color-orange;
+}
 
 @media all and (min-width: 768px) {
   .tips {
@@ -134,11 +133,11 @@
   border-radius: 22.5px;
   padding: 8px 30px;
   transition: box-shadow ease 1s;
- }
+}
 
- .reasons__button-more:hover {
-   box-shadow: 0px 8px 15px $color-greyish-brown;
- }
+.reasons__button-more:hover {
+  box-shadow: 0px 8px 15px $color-greyish-brown;
+}
 
 @media all and (min-width: 768px) {
   .reasons {
