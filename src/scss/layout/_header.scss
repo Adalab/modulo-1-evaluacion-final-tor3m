@@ -1,13 +1,13 @@
 .hero {
   height: 100vh;
-  background-image: url("/assets/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
 
   &__menu {
-    // .hero__menu
+    // .hero__menu url("../images/cover.jpg");
     position: fixed;
     top: 0;
     width: 44px;
