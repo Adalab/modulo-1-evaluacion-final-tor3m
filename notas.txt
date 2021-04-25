@@ -1,0 +1,12 @@
+acordarme de colocar la fuente roboto y roboto slab.
+acordarme de ver los tamaños de letra por section
+los padding y margin que varian por tamaños
+escribir en minusculas y cambiar letras a mayusculas con propiedad
+anadir coumentacion y enlaces a carpetas correctas
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav#:~:text=the%20global%20attributes.-,Usage%20notes,in%20a%20element.
+imagen en hero background
+seleccionar letras como carro de la compra y pegar todo el enlace y luego darme cuenta de como debo nombrar cada For example, let’s say we have a block named person. A person has legs and hands, it can also be female or male. If we want to define a male person with a right hand it will look like this:
+.person--male__hand--right {/* Styles */}
+https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
+https://en.bem.info/methodology/naming-convention/
+
