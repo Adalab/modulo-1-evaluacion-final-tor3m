@@ -3,10 +3,12 @@
   display: flex;
   flex-direction: column;
   font-family: $font-roboto;
+  position: relative;
 }
-
 .scroll-up {
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .button-scroll-up {
@@ -18,12 +20,11 @@
   margin-top: -15px;
 }
 
-.button-scroll-up:hover{
+.button-scroll-up:hover {
   animation-duration: 2s;
   animation-name: scrollup;
   animation-iteration-count: 1;
   animation-timing-function: ease;
-  
 }
 
 @keyframes scrollup {
@@ -32,7 +33,6 @@
   }
 
   to {
-    
     transform: scale(1.25);
   }
 }
@@ -96,17 +96,29 @@
   color: $color-orange;
 }
 
+.love-heart:hover {
+  animation-duration: 3s;
+  animation-name: love;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes love {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+}
+
 @media all and (min-width: 768px) {
   .footer {
     justify-content: space-around;
     flex-direction: row;
-    position: relative;
   }
-  .scroll-up {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
+
   .interest {
     order: 2;
   }
