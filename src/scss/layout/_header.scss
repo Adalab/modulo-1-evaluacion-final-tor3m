@@ -7,7 +7,6 @@
   display: flex;
 
   &__menu {
-    // .hero__menu url
     position: fixed;
     top: 0;
     width: 44px;
@@ -17,14 +16,12 @@
   }
 
   &__content {
-    // .hero__content
     align-self: flex-end;
     justify-self: center;
     flex-direction: column;
     display: flex;
 
     &__title {
-      // .hero__content__title
       font-family: $font-robotoSlab;
       font-size: 42px;
       font-weight: bold;
