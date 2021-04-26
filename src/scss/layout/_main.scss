@@ -27,7 +27,6 @@
   font-size: 18px;
   color: $color-greyish-brown;
   line-height: 1.67;
-  justify-content: space-around;
   margin: 15px 0 30px;
 }
 
@@ -35,9 +34,9 @@
   text-decoration: none;
   font-family: $font-roboto;
   font-size: 20px;
+  color: $color-orange;
   text-align: center;
   text-transform: capitalize;
-  color: $color-orange;
   height: 45px;
   border-radius: 22.5px;
   border: $color-orange solid 2px;
@@ -55,10 +54,7 @@
 }
 
 @media all and (min-width: 768px) {
-  .tips {
-    justify-content: space-between;
-  }
-
+  
   .tips__subtitle {
     font-size: 26px;
     line-height: 1.73;
@@ -93,7 +89,7 @@
   background-color: $color-ice-blue;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 60px auto auto auto 90px;
+  grid-template-rows: 60px 1fr 1fr 1fr 90px;
   row-gap: 45px;
   text-align: center;
 }
@@ -116,6 +112,7 @@
 .reasons__article-subtitle:first-letter {
   text-transform: capitalize;
 }
+
 .reasons__article-paragraph {
   font-family: $font-roboto;
   font-size: 18px;
@@ -148,31 +145,23 @@
   }
   .reasons__title {
     font-size: 32px;
-    grid-column: 1 / span 3;
+    grid-column: span 3;
     text-align: center;
   }
   .reasons__article-subtitle {
     font-size: 24px;
   }
   .reasons__button {
-    grid-column: 1 / span 3;
+    grid-column: span 3;
   }
   .reasons__button-more {
     margin-bottom: 70px;
     padding: 12px 43px;
   }
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media all and (min-width: 1024px) {
-  .reasons {
-    justify-content: center;
-  }
-
+ 
   .tips__subtitle {
     font-size: 32px;
   }
