@@ -11,6 +11,7 @@ El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dad
 - Usar flexbox y CSS Grid.
 - Usar media queries.
 - Resolver algunas interacciones usando transiciones.
+- Adicional, uso de la metodología BEM
  
 ## Maquetación
 
