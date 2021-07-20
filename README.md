@@ -1,11 +1,11 @@
 
-# Anonymous Proxy
+# Anonymous Proxy 👋
 
 modulo-1-evaluacion-final-tor3m
 
 Creación de landing page en base a los conomicimientos obtenidos en modulo 1 del programa de Adalab.
 
-## Guía de inicio rápido
+## Guía de inicio rápido 🔨
 
 El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Hay que resolver varios puntos:
 
@@ -15,7 +15,7 @@ El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dad
 - Resolver algunas interacciones usando transiciones.
 - Adicional, uso de la metodología BEM
  
-## Maquetación
+## Maquetación 💻
 
 HTML
 Tener el código perfectamente indentado.
@@ -35,6 +35,11 @@ Usar selectores de clase en inglés.
 Mediqueries
 Usar mediaqueries para que los diseños se ajusten a distintos tamaños de dispositivo.
 
-## Agradecimientos
+## Agradecimientos 🥰
 
-A la paciencia y voluntad de cada uno de los profesores y a la fuerza de cada una de mis compañeras y la mía propia que alguna puse en duda.
+A la paciencia y voluntad de cada uno de los profesores y a la fuerza de cada una de mis compañeras y la mía propia.
+
+## Dudas o sugerencias 📫
+
+Cualquier duda o sugerencia es bienvenida, no dudes en contactar conmigo a tráves de las issues o de mi correo electrónico torres.m3lly@gmail.com. Gracias.
+
