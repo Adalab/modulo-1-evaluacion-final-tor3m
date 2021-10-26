@@ -3,9 +3,6 @@
 
 ![anonymous](https://user-images.githubusercontent.com/81690198/138904427-dbd5e64b-9d16-4e94-9091-c4a3f9433d54.png)
 
-
-modulo-1-evaluacion-final-tor3m
-
 Creación de landing page en base a los conomicimientos obtenidos en modulo 1 del programa de Adalab.
 
 ## Guía de inicio rápido 🔨
